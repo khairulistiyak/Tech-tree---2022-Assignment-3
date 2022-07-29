@@ -7,6 +7,7 @@
     <title>Tech Tree</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
     <script src="https://kit.fontawesome.com/142b9a8957.js" crossorigin="anonymous"></script>
 </head>
 
@@ -48,9 +49,9 @@
                 </div>
             </nav>
         </section>
-    </header>
-    <!------------- navbar end ------------ -->
-    <main>
+
+        <!------------- navbar end ------------ -->
+
         <!------------- header Slider start ------------ -->
         <Section class="mb-5">
 
@@ -59,16 +60,8 @@
 
                 <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner justify-content-center">
+
                         <!-- header article start -->
-
-                        <!-- <h1 class="text-uppercase">never stop learning always</h1>
-                        <p>“The difference between school and life? In school, you're taught a lesson and then given a
-                            test.
-                            In
-                            life, you’re given a test that teaches you a lesson.”</p>
-                        <button class="btn btn-info text-white fw-bold">Get Started</button> -->
-
-                        <!-- header article end  -->
                         <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
                             <div class="carousel-indicators">
                                 <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0"
@@ -78,24 +71,24 @@
                                 <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
                                     aria-label="Slide 3"></button>
                             </div>
-                            <div class="carousel-inner">
-                                <div class="carousel-item active d-flex  justify-content-center"
+                            <div class="carousel-inner align-items-center">
+                                <div class="carousel-item active d-flex fle justify-content-center"
                                     data-bs-interval="10000">
-                                    <div class=" justify-content-center align-items-center">
+                                    <div class=" d-grid justify-content-center align-items-center ">
                                         <div>
-                                            <img src="./images/cover/cover-1.png" class="d-block w-100" alt="...">
+                                            <img src="./images/cover/cover-1.png" class="d-block w-100 " alt="...">
                                         </div>
-                                        <div class="carousel-caption  d-md-block text-white">
+                                        <div class="carousel-caption d-none d-md-block text-light ">
                                             <h1 class="text-uppercase text-light">never stop learning always</h1>
-                                            <p>“The difference between school and life? In school,
+                                            <p>“The difference between school and life?
                                             </p>
                                             <button class="btn btn-info text-white fw-bold">Get Started</button>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="carousel-item" data-bs-interval="2000">
+                                <div class="carousel-item text-light" data-bs-interval="2000">
                                     <img src="./images/cover/cover-2.jpg" class="d-block w-100" alt="...">
-                                    <div class="carousel-caption d-none d-md-block">
+                                    <div class="carousel-caption d-none d-md-block text-light">
                                         <h1 class="text-uppercase">never stop learning always</h1>
                                         <p>“The difference between school and life? In school, you're taught a lesson
                                             and then given a
@@ -105,9 +98,9 @@
                                         <button class="btn btn-info text-white fw-bold">Get Started</button>
                                     </div>
                                 </div>
-                                <div class="carousel-item">
+                                <div class="carousel-item ">
                                     <img src="./images/cover/cover-3.jpg" class="d-block w-100" alt="...">
-                                    <div class="carousel-caption d-none d-md-block jus">
+                                    <div class="carousel-caption d-none d-md-block text-light">
 
                                         <h1 class="text-uppercase">never stop learning always</h1>
                                         <p>“The difference between school and life? In school, you're taught a lesson
@@ -142,7 +135,11 @@
 
 
         </Section>
-        <!------------- header Slider end ------------ -->
+
+    </header>
+    <!------------- header Slider end ------------ -->
+    <main>
+
 
 
 
@@ -419,21 +416,73 @@
         <!-- View All  buttton  -->
 
         <!-- Frequently Asked Questions start -->
-        <section>
-            <div class=" text-center mb-5">
+        <section class="mb-5">
+            <div class=" text-center mb-5 ">
                 <h1>Frequently Asked Questions</h1>
                 <p>It is a long established fact that a reader will be distracted by the <br> readable content of a page
                     when
                     looking
                     at its layout.</p>
             </div>
-            <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
-                <option selected>Open this select menu</option>
-                <p>hello</p>
-                <option value="2">Two</option>
-                <option value="3">Three</option>
-            </select>
 
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            <h5>What are the difference beetween flexbox and grid?</h5>
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Bootstrap comes with a set of pre-styled responsive, mobile-first components that
+                            possess a definite
+                            UI kit. Tailwind CSS uses a set of utility classes to create a neat UI with more
+                            flexibility and
+                            uniqueness. Sites created using Bootstrap follow the generic pattern that makes them
+                            look identical.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            <h5>What are the difference beetween bootstrap and tailwind?</h5>
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Bootstrap comes with a set of pre-styled responsive, mobile-first components that
+                            possess a definite
+                            UI kit. Tailwind CSS uses a set of utility classes to create a neat UI with more
+                            flexibility and
+                            uniqueness. Sites created using Bootstrap follow the generic pattern that makes them
+                            look identical.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            <h5></h5>
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            The box-model is used talking about design and layout. The css box model is essentially
+                            a box. Every
+                            box is composed of four parts or areas, defined by their respective edges. Content edge,
+                            padding,
+                            border, and margin.
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
         <!-- Frequently Asked Questions end-->
 
@@ -470,6 +519,14 @@
         </section>
         <!-- companies end-->
     </main>
+
+
+
+
+
+    <!-- ------------------------------------------------  -->
+
+    <!-- ------------------------------------------------  -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
